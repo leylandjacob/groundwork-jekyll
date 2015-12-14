@@ -1,0 +1,68 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<!--Mobile meta-->
+	<meta name="viewport"  content="width=device-width, initial-scale=1">
+	<meta name="HandheldFriendly" content="True"/>
+	<meta name="MobileOptimized" content="320"/>
+	
+	<!--Search meta-->
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<meta name="title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="keywords" content="{{ site.data.company.meta.keywords }}"/>
+	<meta name="author" content="{{ site.data.company.meta.author }}"/>
+	<meta name="thumbnail" content="{{ site.data.company.meta.thumbnail }}"/>
+	
+	<!--Twitter Card-->
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:site" content="{{ site.data.company.social.twitter.username }}"/>
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+	<meta name="twitter:url" content="{{ site.url }}"/>
+	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+	<meta name="twitter:creator" content="{{ site.data.company.social.twitter.username }}"/>
+	<meta name="twitter:image:src" content="{{ site.data.company.meta.thumbnail }}"/>
+	<meta name="twitter:domain" content="{{ site.url }}"/>
+	
+	<!--Facebook OG-->
+	<meta property="og:site_name" content="{{ site.url }}"/>
+	<meta property="og:locale" content="en_US"/>
+	<meta property="og:url" content="{{ site.url }}"/>
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+	<meta property="og:image" content="{{ site.data.company.meta.thumbnail }}"/>
+	<meta property="fb:app_id" content="appid"/>
+	
+	<!--Favicon-->
+	<link rel="apple-touch-icon" sizes="57x57" href="public/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="public/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="public/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="public/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="public/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="public/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="public/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="public/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="public/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="public/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="public/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="public/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="public/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	
+	<link rel="stylesheet" href="/public/css/main.css">
+
+	{% if jekyll.environment == "production" %}
+		<script src="/public/javascripts/main-built.js"></script>
+	{% else %}
+		<script data-main="/public/javascripts/main.js" src="/public/javascripts/require.js"></script>
+	{% endif %}
+	
+	{% if jekyll.environment == "development" %}
+		<script src="http://localhost:35729/livereload.js"></script>
+	{% endif %}
+	
+</head>

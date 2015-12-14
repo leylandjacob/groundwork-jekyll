@@ -1,0 +1,46 @@
+{
+	"name": "Bamboo Creative",
+	"legalName": "Bamboo Creative Inc.",
+	"domainProduction": "bamboocreative.com",
+	"domainDevelopment": "bamboocreativedev.com",
+	"meta": {
+		"title": "Site Title",
+		"description": "Site Description",
+		"keywords": "Keyword, Keyword, Keyword",
+		"author": "Site Author",
+		"thumbnail" : "/public/images/thumbnail.jpg"
+	},
+	"address": {
+		"fullAddress" : "6020 West Oaks Blvd, Suite 180, Rocklin, CA 95765",
+		"streetAddress": "6020 West Oaks Blvd, Suite 180",
+		"city": "Rocklin",
+		"state": "CA",
+		"zipcode": "96765",
+		"addressLink": "https://maps.google.com"
+	},
+	"hours": {
+      
+    },
+	"phone": {
+	   "main": "",
+	   "support": ""
+	},
+	"email": {
+		"main": "",
+		"support": ""
+	},
+	"support": {
+		"url": ""
+	},
+	"social": {
+		"twitter" : {
+		  "username": "feeltheboo",
+		  "url" : "https://twitter.com/feeltheboo"
+		},
+		"facebook" : {
+		  "username": "feeltheboo",
+		  "url" : "https://facebook.com/feeltheboo"
+		
+		}
+	}
+}
