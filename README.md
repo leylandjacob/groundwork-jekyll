@@ -13,10 +13,10 @@ This is a starter project for Jekyll sites.
 `heroku create siteName`  
 Then commit, and then push it up!
 
-`git add .  
- git commit -m 'first commit'  
- git push heroku master  
- heroku open`  
+`git add .`  
+`git commit -m 'first commit'`  
+`git push heroku master`  
+`heroku open`  
 
 
 # TODO
