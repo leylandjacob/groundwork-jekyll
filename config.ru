@@ -1,6 +1,7 @@
 require "rack/jekyll"
+require 'yaml'
 
-# Middleware
+# Middlewarerequire
 use Rack::ShowExceptions  # Nice looking errors
 
 run Rack::Jekyll.new
