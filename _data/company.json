@@ -1,8 +1,8 @@
 {
-	"name": "Bamboo Creative",
-	"legalName": "Bamboo Creative Inc.",
-	"domainProduction": "bamboocreative.com",
-	"domainDevelopment": "bamboocreativedev.com",
+	"name": "groundwork-jekyll",
+	"legalName": "groundwork-jekyll Inc.",
+	"domainProduction": "groundwork-jekyll.com",
+	"domainDevelopment": "groundwork-jekyll.com",
 	"meta": {
 		"title": "Site Title",
 		"description": "Site Description",
@@ -34,12 +34,12 @@
 	},
 	"social": {
 		"twitter" : {
-		  "username": "feeltheboo",
-		  "url" : "https://twitter.com/feeltheboo"
+		  "username": "username",
+		  "url" : "https://twitter.com/username"
 		},
 		"facebook" : {
-		  "username": "feeltheboo",
-		  "url" : "https://facebook.com/feeltheboo"
+		  "username": "username",
+		  "url" : "https://facebook.com/username"
 		
 		}
 	}
