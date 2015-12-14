@@ -1,5 +1,10 @@
-_site/*
+Gemfile.lock
+_site
+.bundle/
+.DS_Store
 .idea
 .sass-cache
 .jekyll-metadata
 public/node_modules/*
+
+_site/index.html
