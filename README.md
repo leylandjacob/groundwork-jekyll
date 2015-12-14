@@ -17,3 +17,10 @@ Then commit, and then push it up!
  git commit -m 'first commit'
  git push heroku master
  heroku open`
+
+
+# TODO
+- Fix Bootstrap tether.js issue
+- Add error and maintenance pages for S3
+- Add pretty Prose.io config
+- Update for Prose.io to handle blogging and uploads to S3
