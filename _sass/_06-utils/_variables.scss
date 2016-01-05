@@ -1,7 +1,5 @@
-$serif-font-family:  'Sentinel A', 'Sentinel B', Helvetica, sans-serif;
 $base-serif-font:  'Sentinel A', 'Sentinel B', Helvetica, sans-serif;
-$base-sans-font: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B', Helvetica, sans-serif;
-$sans-serif-font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B', Helvetica, sans-serif;
+$base-sans-font: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
 
 $font-color: map-get($gray, dark);
 $font-color-light: map-get($gray, main);
