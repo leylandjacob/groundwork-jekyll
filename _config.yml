@@ -7,12 +7,13 @@
 prose:
   ignore: ['config.ru', 'Gemfile', 'Gemfile.lock', 'Procfile', 'Rakefile', 'Guardfile', '_config.yml', '.gitignore', '_site', '_sass', '_layouts', 'public', '.sass-cache']
   metadata:
-    - name: "test"
-      field:
-        element: checkbox
-        label: Test Toggle
-        help: Toggle test help text
-        value: false
+    '':
+      - name: "test"
+        field:
+          element: checkbox
+          label: Test Toggle
+          help: Toggle test help text
+          value: false
         
 gems: ['kramdown']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
