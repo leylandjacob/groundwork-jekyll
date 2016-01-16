@@ -14,6 +14,12 @@ prose:
           label: Test Toggle
           help: Toggle test help text
           value: false
+      - name: "title"
+        field:
+          element: text
+          label: Test Text Input
+          help: Text iput
+          value: Add a tittle...
         
 gems: ['kramdown']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
