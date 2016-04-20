@@ -1,4 +1,16 @@
 <head>
+	<!--
+	 ___               _                 ___                  _    _           
+	| _ ) __ _  _ __  | |__  ___  ___   / __| _ _  ___  __ _ | |_ (_)__ __ ___ 
+	| _ \/ _` || '  \ | '_ \/ _ \/ _ \ | (__ | '_|/ -_)/ _` ||  _|| |\ V // _)
+	|___/\__,_||_|_|_||_.__/\___/\___/  \___||_|  \___|\__,_| \__||_| \_/ \___|
+
+	Site by Bamboo Creative - 2016 - bamboocreative.com
+	
+	Credits:
+	 - Leyland Jacob Elia - Development - @leylandjacob
+	 	
+	-->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	
@@ -55,8 +67,21 @@
 	
 	<link rel="stylesheet" href="/public/css/main.css">
 
+	<script type="text/javascript" src="/public/node_modules/tether/dist/js/tether.min.js"></script>
+	
 	{% if jekyll.environment == "production" %}
 		<script src="/public/javascripts/main-built.js"></script>
+		<!--Google Analytics-->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+			ga('create', 'UA-75606560-1', 'auto');
+			ga('send', 'pageview');
+	
+		</script>
 	{% else %}
 		<script data-main="/public/javascripts/main.js" src="/public/javascripts/require.js"></script>
 	{% endif %}

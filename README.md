@@ -41,6 +41,5 @@ Step 4: Push to GitHub.
 
 
 # TODO
-- Fix Bootstrap tether.js issue
 - Update for Prose.io to handle blogging and uploads to S3
 - Add JSON api support

@@ -1,8 +1,6 @@
-// -----------------------------------------------------------------------------
-// Mixin
-// -----------------------------------------------------------------------------
-
-
+// ------------------------------------------------------------
+// Neat grid using Omega Reset
+// ------------------------------------------------------------
 // Color util classes
 @mixin color($class-extension, $color){
 
@@ -13,4 +11,46 @@
     color: $color;
   }
 
+  .border--#{$class-extension} {
+    border-color: $color;
+  }
+  
+  a.color--#{$class-extension} {
+    color: $color;
+    &:hover {
+      color: darken($color, 10%);
+    }
+    &:focus {
+      color: darken($color, 10%);
+    }
+    &:visited {
+      color: darken($color, 10%);
+    }
+    &:active {
+      color: darken($color, 10%);
+    }
+  }
+}
+
+@mixin padding($size, $value){
+  .p-t-#{$size} {
+    padding-top: $value;
+  }
+  .p-b-#{$size} {
+    padding-bottom: $value;
+  }
+  .p-r-#{$size} {
+    padding-right: $value;
+  }
+  .p-l-#{$size} {
+    padding-left: $value;
+  }
+  .p-y-#{$size} {
+    padding-bottom: $value;
+    padding-top: $value;
+  }
+  .p-x-#{$size} {
+    padding-left: $value;
+    padding-right: $value;
+  }
 }
