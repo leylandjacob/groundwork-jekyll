@@ -1,0 +1,11 @@
+{
+  "name": "rocklin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+	"postinstall": "cd public && npm install && cd javascripts && node r.js -o build.js",
+	"start" : ""
+  },
+  "dependencies": {
+  }
+}

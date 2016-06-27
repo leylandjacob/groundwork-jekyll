@@ -5,7 +5,7 @@
   "dependencies": {
     "backbone": "*",
     "bowser": "*",
-    "jquery": "*",
+    "jquery": "2.2.4",
     "tether": "^1.1.1",
     "underscore": "*"
   }

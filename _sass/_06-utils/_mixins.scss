@@ -54,3 +54,45 @@
     padding-right: $value;
   }
 }
+
+@mixin margin($size, $value){
+  .m-t-#{$size} {
+    margin-top: $value;
+  }
+  .m-b-#{$size} {
+    margin-bottom: $value;
+  }
+  .m-r-#{$size} {
+    margin-right: $value;
+  }
+  .m-l-#{$size} {
+    margin-left: $value;
+  }
+  .m-y-#{$size} {
+    margin-bottom: $value;
+    margin-top: $value;
+  }
+  .m-x-#{$size} {
+    margin-left: $value;
+    margin-right: $value;
+  }
+}
+
+@mixin el($size, $value){
+  .el-t-#{$size} {
+    @extend .el;
+    top: $value;
+  }
+  .el-r-#{$size} {
+    @extend .el;
+    right: $value;
+  }
+  .el-b-#{$size} {
+    @extend .el;
+    bottom: $value;
+  }
+  .el-l-#{$size} {
+    @extend .el;
+    left: $value;
+  }
+}
