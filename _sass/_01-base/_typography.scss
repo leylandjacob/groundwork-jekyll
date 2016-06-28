@@ -42,12 +42,30 @@ h1,h2,h3,h4,h5,h6 {
 // small
 .font-size--sm-1 {
   font-size: .5rem;
+  @include media($screen-sm){
+  }
+  @include media($screen-md){
+  }
+  @include media($screen-lg){
+  }
 }
 .font-size--sm-2 {
   font-size: .75rem;
+  @include media($screen-sm){
+  }
+  @include media($screen-md){
+  }
+  @include media($screen-lg){
+  }
 }
 .font-size--sm-3 {
   font-size: .9rem;
+  @include media($screen-sm){
+  }
+  @include media($screen-md){
+  }
+  @include media($screen-lg){
+  }
 }
 // medium
 .font-size--md-1 {
@@ -55,17 +73,35 @@ h1,h2,h3,h4,h5,h6 {
   @include media($screen-sm){
     font-size: 1rem;
   }
+  @include media($screen-md){
+    font-size: 1rem
+  }
+  @include media($screen-lg){
+    font-size: 1rem
+  }
 }
 .font-size--md-2 {
   font-size: 1.1rem;
   @include media($screen-sm){
     font-size: 1.3rem;
   }
+  @include media($screen-md){
+    font-size: 1.3rem
+  }
+  @include media($screen-lg){
+    font-size: 1.3rem
+  }
 }
 .font-size--md-3 {
   font-size: 1.3rem;
   @include media($screen-sm){
     font-size: 1.6rem;
+  }
+  @include media($screen-md){
+    font-size: 1.6rem
+  }
+  @include media($screen-lg){
+    font-size: 1.6rem
   }
 }
 // large
@@ -74,17 +110,35 @@ h1,h2,h3,h4,h5,h6 {
   @include media($screen-sm){
     font-size: 2rem;
   }
+  @include media($screen-md){
+    font-size: 2rem
+  }
+  @include media($screen-lg){
+    font-size: 2rem
+  }
 }
 .font-size--lg-2 {
   font-size: 2rem;
   @include media($screen-sm){
     font-size: 2.5rem;
   }
+  @include media($screen-md){
+    font-size: 2.5rem
+  }
+  @include media($screen-lg){
+    font-size: 2.5rem
+  }
 }
 .font-size--lg-3 {
   font-size: 2.3rem;
   @include media($screen-sm){
     font-size: 3rem;
+  }
+  @include media($screen-md){
+    font-size: 3rem
+  }
+  @include media($screen-lg){
+    font-size: 3rem
   }
 }
 
@@ -94,16 +148,34 @@ h1,h2,h3,h4,h5,h6 {
   @include media($screen-sm){
     font-size: 3.6rem
   }
+  @include media($screen-md){
+    font-size: 3.6rem
+  }
+  @include media($screen-lg){
+    font-size: 3.6rem
+  }
 }
 .font-size--xl-2 {
   font-size: 3.2rem;
   @include media($screen-sm){
     font-size: 4.2rem
   }
+  @include media($screen-md){
+    font-size: 4.2rem
+  }
+  @include media($screen-lg){
+    font-size: 4.2rem
+  }
 }
 .font-size--xl-3 {
   font-size: 3.8rem;
   @include media($screen-sm){
+    font-size: 5rem
+  }
+  @include media($screen-md){
+    font-size: 5rem
+  }
+  @include media($screen-lg){
     font-size: 5rem
   }
 }

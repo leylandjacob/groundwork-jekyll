@@ -3,10 +3,10 @@
 ---
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+@import "_07-vendors/bootstrap/scss/_bootstrap";
 @import "_07-vendors/bourbon/bourbon";
 @import "_07-vendors/neat/neat";
 @import "_07-vendors/font-awesome/_font-awesome";
-@import "_07-vendors/bootstrap/scss/_bootstrap";
 @import "_06-utils/color-palette";
 @import "_06-utils/mixins";
 @import "_06-utils/variables";
