@@ -1,21 +1,5 @@
 // extension of bootstrap padding classes
-@include padding(5, 5%);
-@include padding(10, 10%);
-@include padding(15, 15%);
-@include padding(20, 20%);
-@include padding(half, .5em);
-@include padding(quarter, .25em);
-
-.p-x-sm-0 {
-  @include media(max-width $screen-sm){
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-}
-
-.p-y-sm-10 {
-  @include media(max-width $screen-sm){
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-}
+@include padding(5, 5rem);
+@include padding(10, 10rem);
+@include padding(15, 15rem);
+@include padding(20, 20rem);

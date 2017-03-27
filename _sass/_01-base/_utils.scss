@@ -1,0 +1,27 @@
+.relative {
+  position: relative;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.cursor--pointer {
+  cursor: pointer;
+}
+.cursor--move {
+  cursor: move;
+}
+.cursor--progress {
+  cursor: progress;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.bg-img-cover {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
